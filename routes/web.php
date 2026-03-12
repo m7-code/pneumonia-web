@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\ResultsController;  // ← Add this
+use App\Http\Controllers\ResultsController;  
 
 // Home and public pages
 Route::get('/', [HomeController::class, 'index'])->name('home');
