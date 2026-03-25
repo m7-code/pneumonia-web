@@ -151,7 +151,7 @@ function init3D() {
     scene.add(directionalLight);
     
     const loader = new THREE.GLTFLoader();
-    loader.load('/models/lung1.glb',
+    loader.load('/models/lung2.glb',
         (gltf) => {
             lung = gltf.scene;
             lung.scale.set(2, 2, 2);

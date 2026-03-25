@@ -27,7 +27,7 @@ class ResultsController extends Controller
             
             // Create Guzzle client
             $client = new Client([
-                'timeout' => 30,
+                'timeout' => 120,
                 'verify' => false
             ]);
             
